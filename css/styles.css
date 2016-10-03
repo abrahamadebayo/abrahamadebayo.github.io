@@ -184,7 +184,7 @@ blockquote p {
     background-image: none;
     border-color: rgba(0, 0, 0, 0.1);
     box-shadow: none;
-    color: #FFFFFF;
+    color: red;
     text-shadow: none;   
     font-weight: bold;  
 }
