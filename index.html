@@ -1,892 +1,604 @@
-<!DOCTYPE html>
-<html class="not-ie" lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Adebayo Quadri: Personal Portfolio">
+        <meta name="keywords" content="adebayo, quadri, developer, designer, website, game, mobile, software, programmer, freelancer">
+        <meta name="author" content="Adebayo Abraham Quadri">
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Debaryoh - Adebayo Abraham Portfolio" />
-<meta name="keywords" content="Debaryoh - Game Development, Mobile App Development and Web Application Development"/>
-<meta name="author" content="Debaryoh" />
+        <title>Looking for a Developer? Let me build your Website, Software or Game!</title>
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
 
-<title>Debaryoh - Websites | Software | Games</title>
-<!--Fav and touch icons-->
-<link rel="shortcut icon" href="img/icons/favicon.png">
-<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
- <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <!--== bootstrap ==-->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!--== font-awesome ==-->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!--== magnific-popup ==-->
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+        
+        <!--== owl carousel ==-->
+        <link href="assets/css/owl.carousel.css" rel="stylesheet">
+        
+        <!--== animate css ==-->
+        <link href="assets/css/animate.min.css" rel="stylesheet">
 
-<!--style sheet-->
-<link rel="stylesheet" media="screen" href="css/bootstrap.css"/>
-<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/fontello/css/fontello.css"/>
-<link rel="stylesheet" media="screen" href="css/styles.css"/>
-<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
-<link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
-<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
-<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' >
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arizonia">
+        <!--== style css ==-->
+        <link href="style.css" rel="stylesheet">
+        
+        <!--== responsive css ==-->
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        
+        <!--== jQuery ==-->
+        <script src="assets/js/jquery-2.1.4.min.js"></script>
 
-</head>
-<body>
 
-<!-- Section : Home -->
-  	<section id="home" class="home-parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-  		<div class="home-overlay-v2">   
-			<div class="container">
-				<div class="col-md-12">
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+       
+        <!--===== Preloader ====-->
+        <div class="preloader">
+            <div class="spinner">
+              <div class="rect1"></div>
+              <div class="rect2"></div>
+              <div class="rect3"></div>
+              <div class="rect4"></div>
+              <div class="rect5"></div>
+            </div>
+        </div>
 
-					<div class="logo"><img src="img/logo.png" class="img-responsive" alt="logo"></div><!-- end .logo -->
-					<div class="info">
-						<h2>Adebayo Abraham</h2>
-						<h3>FRONT-END DEVELOPER</h3>
-					</div><!-- end .info -->
-
-					<ul class="social">
-				         <li><a class="twitter" href="https://twitter.com/debaryoh"></a></li>
-				         <li><a class="facebook" href="https://www.facebook.com/quadri.abraham"></a></li>
-				         <li><a class="linkedin" href="https://ng.linkedin.com/in/adebayoabraham"></a></li>
-				         <li><a class="github" href="https://github.com/abrahamadebayo"></a></li>
-				    </ul><!-- end .social -->
-				</div><!-- end .col-md-12 -->
-			</div><!-- end .cotainer -->
-		</div><!-- end .home-overlay -->
-	</section>
-<!-- Section : Home end -->
-<!-- Header -->
-    <div class="main-menu-continer">
-        <nav id="main-menu" class="navbar navbar-default">
+        
+        <!--===== HEADER AREA =====-->
+        <header class="navbar custom-navbar navbar-fixed-top">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-navicon"></i>
-                    </button>
-                    <!-- Logo -->
-                    <a href="#" class="header-logo">
-                        <img src="img/logo-2.png" alt="Logo">
-                    </a> 
-                    <!-- Logo -->
-                </div><!-- End .navbar-header -->
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="logo">
+                           <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <a class="theme-color" href="index.html">Debar<span>yoh</span></a> <!--== logo ==-->
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                       <nav class="main-menu">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav"> <!--== manin menu ==-->
+                                <li class="active"><a class="smoth-scroll theme-color" href="#home">Home</a></li>
+                                <li><a class="smoth-scroll theme-color" href="#about">About</a></li>
+                                <li><a class="smoth-scroll theme-color" href="#services">service</a></li>
+                                <li><a class="smoth-scroll theme-color" href="#work">work</a></li>
+                                <li><a class="smoth-scroll theme-color" href="#contact">contact</a></li>
+                            </ul>
+                        </div>
+                        </nav>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.container-->
+        </header>
+        <!--===== END HEADER AREA ======-->
 
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <!-- Navigation -->
-                    <ul class="nav navbar-nav" id="navs">
-				        <li class="active"><a href="#home" class="colapse-menu1">Home</a></li>
-				        <li><a href="#about" class="colapse-menu1">About</a></li>
-				        <li><a href="#resume" class="colapse-menu1">Resume</a></li>
-				        <li><a href="#service" class="colapse-menu1">Service</a></li>
-				        <li><a href="#skills" class="colapse-menu1">Skill</a></li> 
-				        <li><a href="#portfolio" class="colapse-menu1">Works</a></li>
-						<li><a href="#clients" class="colapse-menu1">Clients</a></li>
-				        <li><a href="#contact" class="colapse-menu1">Contact</a></li>
+        <!--======= WELCOME AREA =======-->
+        <div id="home" class="welcome-area" data-stellar-background-ratio="0.6" style="background-image: url(assets/img/intro-bg.jpg);">
+           <div class="welcome-table">
+               <div class="welcome-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="welcome-text">
+                                   <div class="element"></div>
+                                </div>
+                                <div class="home-arrow">
+                                    <a href="#about" class="smoth-scroll theme-color"><i class="fa fa-angle-double-down"></i></a>
+                                </div>
+                            </div>
+                       </div><!--/.row-->
+                    </div><!--/.container-->
+                </div>
+            </div>
+        </div>
+        <!--===== END WELCOME AREA =====-->
+
+       
+        <!--===== ABOUT AREA =====-->
+        <div id="about" class="about-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                       <div class="author-image">
+                            <img src="assets/img/author.jpg" alt="Author Image"> <!--=== author image ===-->
+                        </div>
+                    </div>
+
+                    <div class="col-md-7">
+                       <div class="about-text">
+                            <h3>Over 7 years experience in <span class="theme-color">web</span> & <span class="theme-color">mobile</span> Technology</h3>
+                            <p>I have developed a wide range of Web/Software Applications with the use of HTML5, CSS3, Javascript, JQuery, PHP; Frameworks like Angular, Bootstrap, Laravel; CMS: Wordpress, Joomla, Prestashop, Shopify and so on, including sites for startup companies and businesses.</p>
+                            
+                            <p>My core competency lies in complete end-end management of a website and mobile applications, and I am seeking opportunities to build websites from the ground up for you and/or your business.</p>
+                            <p>I also have professional and valid experience in the following areas: Ionic Framework, MEAN Stack, Python and software design and testing.</p>
+                            <a class="btn theme-color" href="https://ng.linkedin.com/in/adebayoabraham">LinkedIn resume</a>
+                            <a class="btn extra" href="#contact">Hire Me</a>
+                        </div>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.container-->
+        </div>
+        <!--===== END ABOUT AREA =====-->
+
+       
+        <!--===== SERVICES AREA =====-->
+        <div id="services" class="services-area section-padding">
+            <div class="container">
+               <div class="row">
+                   <div class="col-md-12 col-sm-12 col-xs-12">
+                      <div class="section-title">
+                       <h2>what i do.</h2>
+                       </div>
+                   </div>
+               </div> <!--/.row-->
+               
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-service theme-color text-center wow fadeInUp" data-wow-delay="0.2s">
+                           <div class="service-img" style="background-image: url(assets/img/service/1.png) "></div>
+                            <h3>web design</h3>
+                            <p>Designing and branding the look and feel of your website to reach your customers an clients.</p>
+                        </div>
+                    </div>
+                   <div class="col-md-4 col-sm-6">
+                        <div class="single-service theme-color text-center wow fadeInUp" data-wow-delay="0.4s">
+                           <div class="service-img" style="background-image: url(assets/img/service/2.png) "></div>
+                            <h3>development</h3>
+                            <p>Developing applications that scale with high efficiency and clients/customer conversion rates.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-service theme-color text-center wow fadeInUp" data-wow-delay="0.6s">
+                           <div class="service-img" style="background-image: url(assets/img/service/3.png) "></div>
+                            <h3>Graphic design</h3>
+                            <p>Creation of excellent media content to represent your brand and image globally.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-service theme-color text-center wow fadeInUp" data-wow-delay="0.8s">
+                           <div class="service-img" style="background-image: url(assets/img/service/4.png) "></div>
+                            <h3>responsive design</h3>
+                            <p>Following current standards and ensuring your application is responsive on all devices.</p>
+                        </div>
+                    </div>
+                   <div class="col-md-4 col-sm-6">
+                        <div class="single-service theme-color text-center wow fadeInUp" data-wow-delay="1.0s">
+                           <div class="service-img" style="background-image: url(assets/img/service/5.png) "></div>
+                           <h3>seo freindly</h3>
+                            <p>Creating application that are SEO friendly and give competitors a run for their money.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single-service theme-color text-center wow fadeInUp" data-wow-delay="1.2s">
+                           <div class="service-img" style="background-image: url(assets/img/service/6.png) "></div>
+                            <h3>support</h3>
+                             <p>Providing excellent technical support, commited to making you satisfied without regrets.</p>
+                        </div>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.container-->
+        </div>
+        <!--====== END SERVICES AREA ======-->
+
+
+        <!--====== WORK AREA ======-->
+        <div id="work" class="work-area section-padding">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                      <div class="section-title">
+                           <h2>recent work.</h2>
+                           <p>Here's some of my recent work</p>
+                       </div>
+                    </div>
+                </div> <!--/.row-->
+                
+                <div class="row">
+                    <ul class="work-list text-center">
+                        <li class="filter theme-color" data-filter="all">all</li>
+                        <li class="filter theme-color" data-filter=".webapps">Web Apps</li>
+                        <li class="filter theme-color" data-filter=".mobileapps">Mobile Apps</li>
+                        <li class="filter theme-color" data-filter=".gameapps">Game Apps</li>
                     </ul>
-                <!-- Navigation End -->
-                </div><!-- End .collapse -->
-            </div><!-- End .container -->
-        </nav><!-- End #main-menu -->
-    </div>
-<!-- Header End -->
-<!-- Section : About -->
-				<section id="about" class="section about-style2">
-					<div class="container">
+                </div> <!--/.row-->
+                
+                <div class="work-inner">
+                    <div class="row no-gutter">
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                            <div class="single-work">
+                                <img src="assets/img/work/1.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>RICC Nigeria</h4>
+                                                <p>Virtual Office Business: Built with JavaScript.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/1.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="http://riccng.com/"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                           <div class="single-work">
+                                <img src="assets/img/work/2.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Flyworld Online</h4>
+                                                <p>Travel and Tour Website: Built using Wordpress and Travelo API.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/2.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="http://flyworldonline.com/"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                            <div class="single-work">
+                                <img src="assets/img/work/3.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Zatras Global</h4>
+                                                <p>Zatras Group main website: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/3.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="#"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                           <div class="single-work">
+                                <img src="assets/img/work/4.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Orange VFX</h4>
+                                                <p>Professional 3D animation company: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/4.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="http://orangevfx.com/"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                            <div class="single-work">
+                                <img src="assets/img/work/5.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Zatras Oil and Gas</h4>
+                                                <p>Oil and Gas Company in Nigeria: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/5.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="http://zatrasoilandgas.com.ng"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                           <div class="single-work">
+                                <img src="assets/img/work/6.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Onebitnote</h4>
+                                                <p>One to many Bitcoin exchange platform: Built with PHP</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/6.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="https://www.onebitnote.com/"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                            <div class="single-work">
+                                <img src="assets/img/work/7.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Totalteachers Education</h4>
+                                                <p>Education Consulting firm: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/7.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="#"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                           <div class="single-work">
+                                <img src="assets/img/work/8.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Girkiadonuwargida</h4>
+                                                <p>Video Streaming: Built with PHP.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/8.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="http://girkiadonuwargida.com/"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                            <div class="single-work">
+                                <img src="assets/img/work/9.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Femak Associates</h4>
+                                                <p>Engineering firm: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/9.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="https://www.femakassociates.com/"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                           <div class="single-work">
+                                <img src="assets/img/work/10.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Amarek Nigeria Ltd</h4>
+                                                <p>Engineering Firm: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/10.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="http://amarekng.com"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                          <div class="single-work">
+                                <img src="assets/img/work/11.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Blessing Mankind</h4>
+                                                <p>Charity Organisation: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/11.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="#"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mix webapps">
+                           <div class="single-work">
+                                <img src="assets/img/work/12.jpg" alt="">
+                                <div class="item-hover">
+                                    <div class="work-table">
+                                        <div class="work-tablecell">
+                                            <div class="hover-content">
+                                                <h4>Play Technologies</h4>
+                                                <p>Electronics Buisness: Built with Wordpress.</p>
+                                                <a class="work-popup theme-color" href="assets/img/work/12.jpg"><i class="fa fa-search-plus"></i></a>
+                                                <a class="work-link theme-color" href="#"><i class="fa fa-link"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--/.row-->
+                </div>
+            </div><!--/.container-->
+        </div>
+        <!--====== END WORK AREA ======-->
+        
+        
+       <!--===== STAT AREA ======-->    
+        <div class="stat-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-stat">
+                            <i class="fa fa-heart"></i>
+                            <h2 class="counter theme-color">35</h2>
+                            <h3>Happy Clients</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-stat">
+                            <i class="fa fa-coffee"></i>
+                            <h2 class="counter theme-color">227</h2>
+                            <h3>Cups of tea</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-stat">
+                            <i class="fa fa-handshake-o"></i>
+                            <h2 class="counter theme-color">156</h2>
+                            <h3>Projects completed</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-stat">
+                            <i class="fa fa-trophy"></i>
+                            <h2 class="counter theme-color">15</h2>
+                            <h3>Award Won</h3>
+                        </div>
+                    </div>
+                </div> <!--/.row -->
+            </div> <!--/.container -->
+        </div>
+        <!--===== END STAT AREA ======-->
+        
+         <!--====== CONTACT INFO AREA ======-->
+        <div id="contact" class="contact-info-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                      <div class="section-title">
+                       <h2>contact.</h2>
+                       </div>
+                    </div>
+                </div> <!--/.row-->
+                
+                <div class="row wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                          <div class="contact-form">
+                             <form id="contact-form" method="post" action="mailto:adebayo.abraham@gmail.com" role="form">
+                             <div class="messages"></div>
+                                <div class="controls">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Name*" required="required" data-error="Name is required.">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Email*" required="required" data-error="Valid email is required.">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message*" rows="7" required="required" data-error="Please,leave us a message."></textarea>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input type="submit" class="btn btn-effect btn-sent theme-color" value="Send message">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                          </div>
+                     </div>
 
-						<div class="section-title" >
-							<h2>About me</h2>
-							<span class="border"></span>
-								<p>
-									<span>Over the last 7 years, I have developed a wide range of Web and Mobile Applications with the use of HTML5, CSS3, Javascript, JQuery, PHP, AngularJS, Angular, Typescript, ReactJS; Frameworks like Bootstrap, Laravel; CMS: Wordpress, Joomla, Prestashop, Shopify, MEAN, Ionic and so on, including sites for startup companies and small businesses. My core competency lies in complete end-end management of a new website development projects, and I am seeking opportunities to build websites from the ground up for you or your business. I also have some experience in the following areas: Python and software design and testing.
-
-</span>
-								</p>
-								<p>
-									Delivering top-level service is my specialty and I thrive in a diverse and fast-paced management environment. Throughout my career I have accrued a multitude of skills including corporate technology management, web and mobile application development, networking, social-media networking and content development.
-								</p>							
-						</div><!-- end .section-title -->
-
-						<div class="row">
-							<div class="col-md-4">
-								<img src="img/pro_pic.png" alt="avater" class="img-responsive">
-							</div><!-- end .col-md-4 -->
-							<div class="col-md-4">
-								<div class="about-info">
-									<div class="info-title">
-										<p>Phone</p>
-										<p>Email</p>
-										<p>website</p>
-										<p>Address</p>
-									</div> <!-- end .info-title -->
-									<div class="info-details">
-										<p>: +234 816 894 9653</p>
-										<p>: adebayo.abraham@gmail.com</p>
-										<p>: https://abrahamadebayo.github.io/</p>
-										<p>: F.C.T, Abuja<br>  Nigeria</p>
-									</div><!-- end .info-details -->					
-									<p class="about-signature">Adebayo Abraham</p>
-									<a href="https://www.linkedin.com/in/adebayoabraham/" class="mt-button large btn"><i class="fa-download"></i><span>LINKEDIN RESUME</span></a>
-								</div> <!-- end .about-info -->
-							</div> <!-- end .col-md-4 -->
-							<div class="col-md-4">
-								<div class="about-extra">
-									<h4>HOBBIES & INTERESTS</h4>
-									<div class="about-extra-icon-style2">
-										<ul>
-											<li>
-												<p><i class="fa-gamepad"></i><br><span>Games</span></p>
-											</li>
-											<li>
-												<p><i class="fa-headphones"></i><br><span>Music</span></p>
-											</li>
-											<li>
-												<p><i class="fa-plane"></i><br><span>Travel</span></p>
-											</li>
-											<li>
-												<p><i class="fa-video-camera"></i><br><span>Cinema</span></p>	
-											</li>
-											<li>
-												<p><i class="fa-coffee"></i><br><span>Coffee</span></p>
-											</li>
-											<li>
-												<p><i class="fa-laptop"></i><br><span>Coding</span></p>
-											</li>
-										</ul>
-									</div> <!-- end .about-extra-icon -->
-								</div><!-- end .about-extra -->				
-							</div><!-- end .col-md-8 -->	
-						</div><!-- end .col-md-row -->
-
-
-						<!--div class="row">
-							<div class="col-md-6">
-				                <a href="#" class="mt-button small outline">Small</a>
-				                <br><br>            
-				                <a href="#" class="mt-button medium outline">Medium</a>
-				                <br><br>            
-				                <a href="#" class="mt-button large outline">Largest</a>
-							</div>
-							<div class="col-md-6">
-				                <a href="#" class="mt-button small outline rounded">Small</a>
-				                <br><br>            
-				                <a href="#" class="mt-button medium outline rounded">Medium</a>
-				                <br><br>            
-				                <a href="#" class="mt-button large outline rounded">Largest</a>
-							</div>
-						</div-->
-
-					</div><!-- end .container -->
-				</section>
-<!-- Section : About end -->
-
-<!-- Section : Resume -->
-				<section id="resume" class="section">
-					<div class="container">
-						<!-- section title -->
-						<div class="section-title">
-							<h2>MY RESUME</h2>
-							<span class="border"></span>
-						</div>
-						<!-- section title end-->
-						
-						<div class="row">
-							<div class="col-md-12">
-								<div class="timeline">
-
-								<!-- Experience Timeline -->
-
-									<div class="timeline-category exp-category">
-										<a class="large bt-timeline">Experiences</a>
-										<div class="timeline-category-icon">
-											<div class="iconspace"><i class="fa-folder-open"></i></div>
-										</div> <!-- /.timeline-category-icon end -->
-
-									</div> <!-- /.timeline-category end -->
-                                    	<div class="timeline-post">											
-											<div class="timeline-post-content-holder">
-												<div class="timeline-post-icon"></div>
-												<div class="timeline-post-title">
-													<h4>Software Engineer</h4>
-												</div>
-												<div class="timeline-post-subtitle">
-													<p><span>Banksforte Global </span><span class="timeline-duration">2017 - Till Date</span></p>
-												</div>
-												<div class="timeline-post-content">
-													<p>* analysing user requirements; * researching, designing and writing new software programs; * testing new programs and fault finding; * evaluating the software and systems that make computers and hardware work etc.</p>
-												</div>
-											</div> <!-- /.timeline-post-content-holder end -->							
-										</div> <!-- /.timeline-post end -->
-										<div class="timeline-post">											
-											<div class="timeline-post-content-holder">
-												<div class="timeline-post-icon"></div>
-												<div class="timeline-post-title">
-													<h4>Front-End Software Engineer</h4>
-												</div>
-												<div class="timeline-post-subtitle">
-													<p><span>Dodavah Integrated Networks </span><span class="timeline-duration">2016 - 2017</span></p>
-												</div>
-												<div class="timeline-post-content">
-													<p>* analysing user requirements; * researching, designing and writing new software programs; * testing new programs and fault finding; * evaluating the software and systems that make computers and hardware work etc.</p>
-												</div>
-									</div> <!-- /.timeline-post-content-holder end -->	
-
-									</div> <!-- /.timeline-category end -->
-										<div class="timeline-post">											
-											<div class="timeline-post-content-holder">
-												<div class="timeline-post-icon"></div>
-												<div class="timeline-post-title">
-													<h4>Software Engineer</h4>
-												</div>
-												<div class="timeline-post-subtitle">
-													<p><span>RICC Nigeria </span><span class="timeline-duration">2015 - 2016</span></p>
-												</div>
-												<div class="timeline-post-content">
-													<p>* analysing user requirements; * researching, designing and writing new software programs; * testing new programs and fault finding; * evaluating the software and systems that make computers and hardware work etc.</p>
-												</div>
-											</div> <!-- /.timeline-post-content-holder end -->							
-										</div> <!-- /.timeline-post end -->
-										<div class="timeline-post">											
-											<div class="timeline-post-content-holder">
-												<div class="timeline-post-icon"></div>
-												<div class="timeline-post-title">
-													<h4>Web Developer</h4>
-												</div>
-												<div class="timeline-post-subtitle">
-													<p><span>Ge.com Nigeria </span><span class="timeline-duration">2014 - 2015</span></p>
-												</div>
-												<div class="timeline-post-content">
-													<p>* meeting with clients to determine requirements; * working with clients to define the scope of a project; * Maintain websites for clients and businesses; * Ensure the web servers and software are operating accurately etc.</p>
-												</div>
-											</div> <!-- /.timeline-post-content-holder end -->							
-										</div> <!-- /.timeline-post end -->									
-										<div class="timeline-post">											
-											<div class="timeline-post-content-holder">
-												<div class="timeline-post-icon"></div>
-												<div class="timeline-post-title">
-													<h4>Front-End Developer</h4>
-												</div>
-												<div class="timeline-post-subtitle">
-													<p><span>Totalteachers Education </span><span class="timeline-duration">2013 - 2014</span></p>
-												</div>
-												<div class="timeline-post-content">
-													<p>* wireframe/layout a website or web application.; * write HTML and CSS from scratch. ; * take a PSD and turn it into a working website. * add interactivity to a website with JavaScript (or jQuery). ; * write a basic application in an object-oriented programming language like Ruby or Python or PHP. etc.</p>
-												</div>
-											</div> <!-- /.timeline-post-content-holder end -->		
-
-											</div> <!-- /.timeline-post-content-holder end -->						
-										<div class="timeline-post">											
-											<div class="timeline-post-content-holder">
-												<div class="timeline-post-icon"></div>
-												<div class="timeline-post-title">
-													<h4>PHP Developer</h4>
-												</div>
-												<div class="timeline-post-subtitle">
-													<p><span>Softinvent Technologies </span><span class="timeline-duration">2011 - 2013</span></p>
-												</div>
-												<div class="timeline-post-content">
-													<p>* add interactivity to a website with JavaScript (or jQuery); * write applications in PHP; * manage a domain’s DNS settings. * deploy a website to a website host. etc.</p>
-												</div>
-											</div> <!-- /.timeline-post-content-holder end -->	
-										</div> <!-- /.timeline-post-content-holder end -->	
-								<!-- Experience Timeline  end -->
-
-									<div class="timeline-end-icon"><span> <i class="fa-bookmark"></i></span></div>
-								</div>	<!-- /.timeline end -->
-							</div> <!-- /.col-md-12 end -->
-						</div>	<!-- /.row end -->
-					</div> <!-- /.container end -->						
-				</section>
-<!-- Section : Resume end -->
-
-<!-- Section : Service -->
-				<section id="service" class="section">
-					<div class="container">
-
-						<div class="section-title">
-							<h2>My Services</h2>
-							<span class="border"></span>
-						</div><!-- end .section-title -->	
-
-						<div class="row">
-
-							<div class="col-md-6 left-service">
-
-								<div class="service-box">
-									<i class="service-icon fa-leaf"></i>
-									<div class="service-content">
-										<h3>Mobile App Development</h3>
-										<p>Plan, create and code mobile applications that fit customer's requirements.</p>
-									</div>
-								</div><!-- end .service-box -->
-								<div class="service-box">
-									<i class="service-icon fa-magic"></i>
-									<div class="service-content">
-										<h3>Image Branding</h3>
-										<p>Creating and developing marketing strategies to engage the consumer's mind and attract and keep customers.</p>
-									</div>
-								</div><!-- end .service-box -->
-								<div class="service-box">
-									<i class="service-icon fa-bar-chart-o"></i>
-									<div class="service-content">
-										<h3>Website Analytics</h3>
-										<p>Measurement, collection, analysis and reporting of web data for purposes of understanding and optimizing web usage.</p>
-									</div>
-								</div><!-- end .service-box -->
-							</div><!-- end .col-md-6 .left-service -->	
-
-							<div class="col-md-6 right-service">
-
-								<div class="service-box">
-									<i class="service-icon fa-flask"></i>
-									<div class="service-content">
-										<h3>Website Development</h3>
-										<p>Working with startups, companies, and enterprises, we develop custom web applications that scale.</p>
-									</div>
-								</div><!-- end .service-box -->
-								<div class="service-box">
-									<i class="service-icon fa-globe"></i>
-									<div class="service-content">
-										<h3>Online Marketing</h3>
-										<p>advertising, SEO and social media marketing to drive direct sales via electronic commerce. </p>
-									</div>
-								</div><!-- end .service-box -->
-								<div class="service-box">
-									<i class="service-icon fa-anchor"></i>
-									<div class="service-content">
-										<h3>Support</h3>
-										<p>I offer support to web and mobile applications developed for clients. This is optional and depends on the project scope.</p>
-									</div>
-								</div><!-- end .service-box -->
-
-							</div><!-- end .col-md-6 .right-service -->
-						</div><!-- end .row -->
-					</div><!-- end .container -->
-				</section>
-<!-- Section : Service end -->
-<!-- Section : skills -->
-				<section id="skills" class="section">
-					<div class="container">
-
-						<div class="section-title">
-							<h2>Skill</h2>
-							<span class="border"></span>
-						</div><!-- end .section-title -->
-
-
-
-						<div class="row">
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>HTML5/CSS3</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>JAVASCRIPT</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>WORDPRESS</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>JAVA & C#</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>PHOTOSHOP</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>AngularJS/Angular 2&4</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>MEAN Stack</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-							<div class="col-xs-12 col-sm-6 col-md-3 chart-padding">
-								<div class="chart" data-percent="99"><p>99<sup>%</sup></p></div>
-								<div class="skills-content">
-									<h3>Ionic 1,2 & 3</h3>
-								</div><!-- end .skils-content -->
-							</div><!-- end .col-xs-12 .col-sm-6 .col-md-3 .chart-padding -->
-
-						</div><!-- end .row -->
-
-					</div><!-- end .container -->
-				</section>
-<!-- Section : skills end-->
-
-<!--Parallax Section -->
-  	<div id="wprocess" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-  		<div class="parallax-overlay-2"> 
-  			<div class="container">
-
-  					<div class="title">
-						<h1>Work Process</h1>
-  					</div><!-- end .title -->
- 				
-  				<div class="row">
-             				<div class="col-xs-6 col-sm-4 col-md-2">
-                                <div class="work_process">
-                                    <div class="work_process-box">
-                                        <i class="icon-lamp"></i>
-                                        <h4>IDEA</h4>
-                                    </div><!-- end .work_process-box -->
-                                </div><!-- end .work_process -->
-                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="author-adress">
+                            <div class="single-address theme-color">
+                                <i class="fa fa-rocket"></i>
+                                <h4>Linkedin:</h4>
+                                <p><a href="https://www.linkedin.com/in/adebayoabraham/">https://www.linkedin.com/in/adebayoabraham/</a></p>
+                            </div>
+                            <div class="single-address theme-color">
+                                <i class="fa fa-phone"></i>
+                                <h4>Phone:</h4>
+                                <p>(+234) 816 894 9653</p>
+                            </div>
+                            <div class="single-address theme-color">
+                                <i class="fa fa-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>adebayo.abraham@gmail.com</p>
+                            </div>
+                            <div class="single-address theme-color">
+                                <i class="fa fa-github"></i>
+                                <h4>Website:</h4>
+                                <p><a href="https://abrahamadebayo.github.io">https://abrahamadebayo.github.io</a></p>
+                            </div>
                             
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                <div class="work_process">
-                                    <div class="work_process-box">
-                                        <i class="fa fa-puzzle-piece"></i>
-                                        <h4>CONCEPT</h4>
-                                    </div><!-- end .work_process-box -->
-                                </div><!-- end .work_process -->
-                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                <div class="work_process">
-                                    <div class="work_process-box">
-                                        <i class="icon-brush"></i>
-                                        <h4>DESIGN</h4>
-                                    </div><!-- end .work_process-box -->
-                                </div><!-- end .work_process -->
-                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                <div class="work_process">
-                                    <div class="work_process-box">
-                                        <i class="fa fa-code"></i>
-                                        <h4>DEVELOP</h4>
-                                    </div><!-- end .work_process-box -->
-                                </div><!-- end .work_process -->
-                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                <div class="work_process">
-                                    <div class="work_process-box">
-                                        <i class="fa fa-bug"></i>
-                                        <h4>TEST</h4>
-                                    </div><!-- end .work_process-box -->
-                                </div><!-- end .work_process -->
-                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
-                            
-                            <div class="col-xs-6 col-sm-4 col-md-2">
-                                <div class="work_process">
-                                    <div class="work_process-box">
-                                        <i class="fa fa-rocket"></i>
-                                        <h4>LAUNCH</h4>
-                                    </div><!-- end .work_process-box -->
-                                </div><!-- end .work_process -->
-                            </div><!-- end .col-xs-6 .col-sm-4 .col-md-2 -->
+                            <div class="social-link">
+                                <ul>
+                                    <li><a class="facebook-color theme-color" href="https://www.facebook.com/quadri.abraham"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="twitter-color theme-color" href="https://twitter.com/debaryoh"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="linkedin-color theme-color" href="https://ng.linkedin.com/in/adebayoabraham"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a class="google-color theme-color" href="https://github.com/abrahamadebayo"><i class="fa fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-				</div><!-- end .row -->
-  			</div><!-- end .container --> 
-  		</div><!-- end .parallax-overlay-2 --> 
- 	</div>
-<!-- Parallax Section End -->
-<!-- Section : Portfolio -->
-				<section id="portfolio" class="section">
-						<div class="container">
-										
-							<div class="section-title">
-								<h2>Portfolio</h2>
-								<span class="border"></span>
-							</div><!-- end .section-title -->
-										
-				            <div class="row">
-				                <!-- #options -->
-				                    <div id="options" class="clearfix">
-				                        <ul id="filters" class="option-set clearfix" data-option-key="filter">
-				                            <li><a href="#filter" data-option-value="*" class="selected">all works</a></li>
-				                            <li><a href="#filter" data-option-value=".webdesign">webdesign</a></li>
-				                            <li><a href="#filter" data-option-value=".uidesign">uidesign</a></li>
-				                            <li><a href="#filter" data-option-value=".branding">branding</a></li>     
-				                            <li><a href="#filter" data-option-value=".logodesign">logodesign</a></li>
-				                            <li><a href="#filter" data-option-value=".illustration">illustration</a></li>
-				                        </ul>
-				                    </div> 
-				                <!-- #options end-->
-				            </div> <!-- End .row -->
-				            <div class="row">
-				                <!-- Portfolio container -->
-				                    <div class="portfolio-container">
+                 </div><!--/.row-->
+            </div><!--/.container-->
+        </div>
+        <!--===== END CONTACT INFO AREA ======-->
 
 
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/1.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->                        
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign logodesign">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/2.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt webdesign illustration logodesign">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/3.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/4.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/5.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>AKQA</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt uidesign illustration">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/6.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt branding logodesign">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/7.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>Squared icon set design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt branding">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/8.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->    
-
-				                        <div class="col-xs-12 col-sm-6 col-md-4 mt branding illustration">
-				                            <div class="project-item">
-				                                <div class="project-image">
-				                                    <a href="#">
-				                                        <img src="img/portfolio/9.png" alt="" />
-				                                        <div class="overlay">
-				                                            <div class="details">
-				                                                <h2>portfolio title design</h2>
-				                                                <p>developed for <span>Envato</span></p>
-				                                            </div>
-				                                        </div>
-				                                    </a>
-				                                </div><!-- end .project-image -->
-				                            </div><!-- end .project-item -->
-				                        </div><!-- end .col-xs-12 col-sm-6 col-md-4 -->   
-				                                                                                                                                                                                                
-				                    </div><!-- End .portfolio-container -->
-
-				                <!-- Portfolio container End-->
-				            </div><!-- End .row -->
-
-						</div><!-- end .container --> 
-				</section>	
-<!-- Section : Portfolio end -->
-
-<!--Parallax Section -->
-  	<div id="hire" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-  		<div class="parallax-overlay-2"> 
-  			<div class="container">		
-  				<div class="row">
-  					<div class="col-md-12">
-					    <h1>I Love To Design &amp; Develop</h1>
-
-					    <a href="#contact" class="mt-button large hire-btn">Hire Me Now</a>
-  					</div><!-- end .col-md-12 -->
-				</div><!-- end .row -->
-  			</div><!-- end .container --> 
-  		</div><!-- end .parallax-overlay-2 -->
- 	</div>
-<!-- Parallax Section End -->
-
-<!-- Section : clients -->
-				<section id="clients" class="section">
-					<div class="container">
-
-						<div class="section-title">
-							<h2>our Clients</h2>
-							<span class="border"></span>
-						</div><!-- end .section-title -->
-
-                        		<div class="row">
-                        			<div id="testimonials"  class="owl-carousel owl-theme">
-                        				<div class="item">
-							                	<div class="box testimonials">
-													<img src="img/testimonials/1.png" alt="">
-													<blockquote>
-													<p>You rock, your product and service delivery is on point.  Why can’t youy make all the mobile and web apps we use?</p>
-													</blockquote>
-													<div class="author">Charles Avul - <a href="#">CSCOMTRON</a></div>
-												</div><!-- end .box .testimonials -->
-										</div><!-- end .item -->	
-                        				<div class="item">
-							                	<div class="box testimonials">
-													<img src="img/testimonials/2.png" alt="">
-													<blockquote>
-													<p>The unanimous conclusion of all of the staff members involved in our research and review is that KeyServer is clearly the best product available.</p>
-													</blockquote>
-													<div class="author">Annabel Enhinaka - <a href="#">Zatras Oil and Gas</a></div>
-												</div><!-- end .box .testimonials -->
-										</div><!-- end .item -->		
-                        				<div class="item">
-							                	<div class="box testimonials">
-													<img src="img/testimonials/3.png" alt="">
-													<blockquote>
-													<p>It was just stunning to get such stellar service. It is so refreshing to find a programmer who knows his ear from his elbow.</p>
-													</blockquote>
-													<div class="author">Chidi Kamuche - <a href="www.playtech.com.ng">Play Technologies</a></div>
-												</div><!-- end .box .testimonials -->
-										</div><!-- end .item -->		
-                        				<div class="item">
-							                	<div class="box testimonials">
-													<img src="img/testimonials/1.png" alt="">
-													<blockquote>
-													<p>Once again, you’ve anticipated my needs.  Thanks!</p>
-													</blockquote>
-													<div class="author">Bolojoko Adah - <a href="www.dodavahng.net">Dodavah Integrated Networks</a></div>
-												</div><!-- end .box .testimonials -->
-										</div><!-- end .item -->		
-
-									</div><!-- end #testimonials -->		
-                        		</div><!-- end .row -->
+        <!--====== FOOTER AREA ======-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row wow zoomIn" data-wow-delay="0.4s">
+                    <div class="col-md-12 text-center">
+                        <p>&copy;2017 <strong>Adebayo Abraham Quadri</strong>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--====== END FOOTER AREA ======-->
 
 
-
-						<div class="row">
-							<ul class="clients_logo">
-								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#" ><img src="img/logo/client01.png" alt="logo" class="img-responsive"></a></li>
-								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#"><img src="img/logo/client02.png" alt="logo" class="img-responsive"></a></li>
-								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#"><img src="img/logo/client03.png" alt="logo" class="img-responsive"></a></li>
-								<li class="col-xs-12 col-sm-4 col-md-3"><a href="#"><img src="img/logo/client04.png" alt="logo" class="img-responsive"></a></li>
-							</ul><!-- end .clients_logo -->
-						</div><!-- end .row -->
-
-					</div><!-- end .container -->
-				</section>
-<!-- Section : Clients end-->
-
-
-<!--Parallax Section -->
-  	<div id="qoutes" class="parallax" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="20">
-  		<div class="parallax-overlay-2"> 
-  			<div class="container">
-					<div class="col-md-12">
-					    <h1>"When you give everyone a voice and give people power, the system usually ends up in a really good place. So, what we view our role as, is giving people that power."</h1>
-
-					    <p>-Mark Zuckerberg</p>
-  					</div><!-- end .col-md-12 -->  				
-  			</div><!-- end .container --> 
-  		</div><!-- end .parallax-overlay-2 -->
- 	</div>
-<!-- Parallax Section End -->
-
-
-<!-- Section : Contact -->
-				<section id="contact" class="section">
-					<div class="container">
-
-						<div class="section-title">
-							<h2>Contact me</h2>
-							<span class="border"></span>
-						</div><!-- end .section-title -->
-
-
-						<div class="row">
-							<div class="col-md-6">
-								<h2>LET'S GET IN TOUCH</h2>
-								<ul class="get_in">
-									<li><i class="fa fa-envelope-o"></i><p>adebayo.abraham@gmail.com</p></li>
-									<li><i class="fa fa-phone"></i><p>+234 816 894 9653</p></li>				
-									<li><i class="fa fa-map-marker"></i><p>Abuja, Nigeria</p></li>
-								</ul><!-- end .get_in -->
-							</div><!-- end .col-md-6 -->
-							<div class="col-md-6">
-								<h2>DROP ME A LINE</h2>
-								<!-- contact from -->
-								<form class="form" id="form" method="post" action="mailto:adebayo.abraham@gmail.com" enctype="text/plain">
-										<input type="text" name="name"  placeholder="Name" required/>
-										<input type="text" name="email" placeholder="Email" required/>
-										<textarea name="message" placeholder="Message" rows="8" ></textarea>
-										<input type="submit" class="btn mt-button medium outline"  id="submit" value="Send Message">
-
-								</form>		
-							</div><!-- end .col-md-6 -->
-
-							<div>
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.4896859945516!2d7.401193114209808!3d9.11016469346456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e757c8c1081f9%3A0x1a3575a022b49f27!2sDodavah+Integrated+Networks!5e0!3m2!1sen!2sng!4v1475503653426" width="1170" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>			
-							</div><!-- end .gmap .col-md-12 -->
-
-						</div><!-- end .row -->
-					</div><!-- end .container -->
-				</section>
-<!-- Section : Contact end -->
-
-<!-- Footer -->
-			<footer>
-
-		        <div class="footer-bottom">
-		        	<div class="container">
-
-				  			<div class="col-md-6 col-xs-12">
-		                        <p class="copyright">&copy; Copyright 2017 <a href="#">Debaryoh</a></p>
-		                    </div><!-- end .col-md-6 col-xs-12 -->
-				  			<div class="col-md-6 col-xs-12">
-				                    <ul class="social">
-				                        <li><a class="facebook" href="https://www.facebook.com/quadri.abraham"></a></li>
-				                        <li><a class="twitter" href="https://twitter.com/debaryoh"></a></li>
-				                        <li><a class="linkedin" href="https://ng.linkedin.com/in/adebayoabraham"></a></li>
-				                        <li><a class="github" href="https://github.com/abrahamadebayo"></a></li>
-				                    </ul><!-- end .social -->		                        
-		                    </div><!-- end .col-md-6 col-xs-12 -->
-		        	</div><!-- end .container -->
-		        </div><!-- end .footer-bottom -->
-
-			</footer>
-<!-- Footer end -->
-
-<!--JavaScript-->
-<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="js/appear-min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false" ></script>
-<script type="text/javascript" src="js/gmap3-min.js"></script>
-<script type="text/javascript" src="js/jquery.easing-1.3.pack-min.js"></script>
-<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
-<script type="text/javascript" src="js/jquery.form-min.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="js/jquery.nav-min.js"></script>
-<script type="text/javascript" src="js/jquery.parallax-1.1.3-min.js"></script>
-<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
-<script type="text/javascript" src="js/jquery.sticky-min.js"></script>
-<script type="text/javascript" src="js/jquery.ufvalidator-1.0.5-min.js"></script>
-<script type="text/javascript" src="js/owl.carousel-min.js"></script>
-<script type="text/javascript" src="js/skrollr-min.js"></script>
-<script type="text/javascript" src="js/styleswitcher-min.js"></script>
-<script type="text/javascript" src="js/tweetscroll/jquery.tweetscroll.js"></script>
-<script type="text/javascript" src="js/smooth-scroll-min.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script>
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-67534014-2']);
-  _gaq.push(['_setDomainName', 'abrahamadebayo.github.io']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<!-- Scroll Top -->
-  <a class="scroll-top" href="#" title="Scroll to top"><i class="fa-chevron-up"></i></a>
-</body>
-
-</html>
+        <!--== plugins js ==-->
+        <script src="assets/js/plugins.js"></script>
+        
+        <!--== typed js ==-->
+        <script src="assets/js/typed.js"></script>
+        
+        <!--== stellar js ==-->
+        <script src="assets/js/jquery.stellar.min.js"></script>
+        
+        <!--== waypoints js ==-->
+        <script src="assets/js/jquery.inview.min.js"></script>
+       
+         <!--== wow js ==-->
+        <script src="assets/js/wow.min.js"></script>
+        
+         <!--== validator js ==-->
+        <script src="assets/js/validator.min.js"></script>
+        
+         <!--== mixitup js ==-->
+        <script src="assets/js/jquery.mixitup.js"></script>
+        
+         <!--== contact js ==-->
+        <script src="assets/js/contact.js"></script>
+        
+         <!--== main js ==-->
+        <script src="assets/js/main.js"></script>
+    </body>
+  </html>
